@@ -3,7 +3,7 @@ let currentIndex =
   document.currentScript.getAttribute("currentIndex");
 currentIndex = parseInt(currentIndex);
 
-const images = ["cover1.webp", "cover2.webp", "cover3.webp"];
+const images = ["cover1.webp", "cover2.webp", "cover3.webp", "cover4.webp"];
 const colorSets = [
   {
     "--text-color": "#c0caf5",
@@ -18,6 +18,13 @@ const colorSets = [
     "--accent-color": "#28725A",
     "--accent-color-2": "#D2C7CB",
     "--background-color": "#15191d",
+  },
+  {
+    "--text-color": "#c0caf5",
+    "--hover-color": "#e0af68",
+    "--accent-color": "#7aa2f7",
+    "--accent-color-2": "#bb9af7",
+    "--background-color": "#1a1b26",
   },
   {
     "--text-color": "#c0caf5",
